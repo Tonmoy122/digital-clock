@@ -21,7 +21,8 @@ function App() {
       color: "#fff",
       display: "grid",
       justifyContent: "center",
-      border: "2px solid #ff5912"
+      border: "2px solid #ff5912",
+      textAlign: 'center',
     }}>
       <h1>Digital Clock</h1>
       <h2>{currentTime}</h2>
